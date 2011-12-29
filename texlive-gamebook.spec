@@ -24,16 +24,8 @@ This package provides the means in order to lay-out gamebooks
 with LaTeX. A simple gamebook example is included with the
 package, and acts as a tutorial.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -51,7 +43,6 @@ package, and acts as a tutorial.
 #- source
 %doc %{_texmfdistdir}/source/latex/gamebook/gamebook.dtx
 %doc %{_texmfdistdir}/source/latex/gamebook/gamebook.ins
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,5 +53,3 @@ package, and acts as a tutorial.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
