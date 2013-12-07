@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-gamebook
 Version:	1.0
-Release:	5
+Release:	6
 Summary:	Typeset gamebooks and other interactive novels
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gamebook
