@@ -1,6 +1,6 @@
 Name:		texlive-gamebook
 Version:	24714
-Release:	1
+Release:	2
 Summary:	Typeset gamebooks and other interactive novels
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gamebook
