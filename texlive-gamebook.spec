@@ -3,7 +3,7 @@ Version:	24714
 Release:	2
 Summary:	Typeset gamebooks and other interactive novels
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/gamebook
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/gamebook
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gamebook.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gamebook.doc.r%{version}.tar.xz
